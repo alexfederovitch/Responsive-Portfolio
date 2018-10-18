@@ -103,7 +103,7 @@ body {
 }
 
 .chart .percent:after {
-  content: '%';
+  /* content: '%'; */
 }
 
 .contactButton {

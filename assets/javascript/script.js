@@ -53,7 +53,8 @@ $(document).ready(function(){
                 lineWidth: 4,
                 size: 152,
                 onStep: function(from, to, percent) {
-                    $(this.el).find('.percent').text(Math.round(percent));
+                    $(this.el).find(100).text(Math.round(percent));
+                    // $(this.el).find('.percent').text(Math.round(percent));
                 }
              });
 
