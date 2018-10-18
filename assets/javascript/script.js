@@ -24,6 +24,10 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         items: 4,
+        autoplay: true,
+        smartSpeed: 500,
+        dots: true,
+        scrollbarType: "progress",
         responsive:{
             0:{
                 items:1
